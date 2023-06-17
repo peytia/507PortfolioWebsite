@@ -31,6 +31,12 @@ The intake system is especially elegant and it is something that I had a major r
 
 It is possible that two balls get sucked up at the same time and arrive at the center belt at the same time, creating a jam condition. To prevent this, we added PTFE tape to the bottom of the polycarbonate lip which allowed one jammed ball to slip while the ball on the other side is forced to the center. A video demonstration of the intake as a whole working can be found [here](https://photos.app.goo.gl/mrP9vR2dfU3nwFN7A), and videos of demonstrating the prevention of a jam condition can be found [here](https://photos.app.goo.gl/hB7bNt9KaDPgHy7h6) and [here](https://photos.app.goo.gl/zF647jZhAiVYDyQy6). Additionally, the intake while active is outside of the starting box defined in the rules. Upon driving out of the starting area, the bump disturbs the stowed intake and it deploys into position passively. A video demonstration of the intake being deployed from the stowed position can be found [here](https://photos.app.goo.gl/BCNLPfSVLKeKbNdK9).
 
+# Electronics Construction
+
+
+
+# Software
+
 
 
 This website is a collection of regular (R)Markdown document, so you can use all the usual formatting.
