@@ -33,16 +33,24 @@ It is possible that two balls get sucked up at the same time and arrive at the c
 
 # Electronics Construction
 
+My major contribution to the team was the electrical portion of the project. I would say that I completed 100% ALL of the electrical work. This includes designing, component selection, soldering, modifying, and reworking the PCB, as well as wiring all of the peripherals to the PCB. I was also responsible for the deadman switch. I was able to produce a Homework #4 assignment, and the feedback I received on the assignment through Canvas allowed me to make a functioning power regulation system that worked flawlessly on the final PCB. 
 
+
+I particularly am proud of the motor driver selection and design, despite having to go through several iterations with different drivers. The end result featured drivers that were controlled with phase/enable pins. This enabled us to have a total of 7 drivers with forward and reverse pwm control. Two of the motor drivers controlled two motors with a Y cable, totaling 9 driven motors on our robot. Below, you can see the PCB after hot plate reflow soldering. The 7 motor drivers can be seen at the bottom of the board.
+
+![](images/pcbafterhotplate.png)
+
+
+I also handled all of the rework which I am proud of. The selected motor drivers were very small which caused bridging and connectivity issues between the pins on 5 of the 7 drivers on the initial hotplate soldering job. It took quite some time, but all of the drivers were brought to working condition with both soldering iron and hot air techniques. I also did not pull the BOOT0 pin to ground with a resistor on the initial pcb design, so I had to perform rework to do that. Finally, a slave select wire for the SPI channel used by the pixycam needed to be added, which I soldered an extra wire to a spare test pad of the last remaining empty GPIO pin. The final PCB board with all the rework performed can be seen below
+
+![](images/pcbafterrework.png)
+
+Overall, I am very proud of my job in making the PCB.
 
 # Software
 
+For my contributions to software, I made a driver forthe color sensing driver for the lab #4 send/receive sensor input assignment, and to be implamented on the robot. This diver interfaced with the proximity/color sensor just below our flywheel, which was able to identify if a ball was present, and then tell the color of the ball that is present in front of the ball. I was able to get it responsive enough to detect a ball’s presence and color in freefall in front of it. A video of this working can be found [here](https://photos.app.goo.gl/Uh5JVtPXgWMbSKum9).
 
+# Overview and Parting Thoughts
 
-This website is a collection of regular (R)Markdown document, so you can use all the usual formatting.
-
-If you are new to R Markdown, you can learn more about it [on the R Markdown website](https://rmarkdown.rstudio.com/). 
-
-I also have a discussion of R Markdown and reproducibility [on one of my course pages](https://andreashandel.github.io/MADAcourse/1e_ToolsforReproducibility.html). You'll find additional links to potentially useful R Markdown (and Github) resources there.
-
-
+Although all the functionality of our robot was not completely finished, I am confident that it would work flawlessly if given just a couple more days. I believe this was a common theme for all of the participating teams. All the mechanical and electrical components have been tested and proven to work individually, and the code structure is nearly complete. A video of the robot functioning as one unit can be found here. A final video of the robot working can be found [here](https://photos.app.goo.gl/BCNLPfSVLKeKbNdK9). Overall, I am proud of the work that I put in and the product that came out.

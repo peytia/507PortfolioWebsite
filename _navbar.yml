@@ -1,5 +1,5 @@
 name: "Mywebsite"
-title: "My new website"
+title: "Peyton Archibald's Portfolio"
 type: inverse
 left:
   - text: "About me"
@@ -16,4 +16,4 @@ left:
     href: ./contact.html
 right:
   - icon: fa-github fa-lg
-    href: https://github.com/githubusername/mywebsite
+    href: https://github.com/peytia
