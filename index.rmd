@@ -49,7 +49,9 @@ Overall, I am very proud of my job in making the PCB.
 
 # Software
 
-For my contributions to software, I made a driver forthe color sensing driver for the lab #4 send/receive sensor input assignment, and to be implamented on the robot. This diver interfaced with the proximity/color sensor just below our flywheel, which was able to identify if a ball was present, and then tell the color of the ball that is present in front of the ball. I was able to get it responsive enough to detect a ball’s presence and color in freefall in front of it. A video of this working can be found [here](https://photos.app.goo.gl/Uh5JVtPXgWMbSKum9).
+For my contributions to software, I made a driver for the color sensing driver for the lab #4 send/receive sensor input assignment, and to be implemented on the robot. This diver interfaced with the proximity/color sensor just below our flywheel, which was able to identify if a ball was present, and then tell the color of the ball that is present in front of the ball. I was able to get it responsive enough to detect a ball’s presence and color in free fall in front of it. A video of this working can be found [here](https://photos.app.goo.gl/Uh5JVtPXgWMbSKum9). 
+
+My code can be viewed on github [here](https://github.com/peytia/507-Proximity-Color-Sensing).
 
 # Overview and Parting Thoughts
 
